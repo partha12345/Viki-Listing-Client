@@ -1,0 +1,140 @@
+.recent-photos .head-title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 31px;
+    font-weight: 700;
+}
+.recent-photos .grid-text-one{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+.recent-photos .grid-text-two{
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.contact-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}
+.bottom-right-text .head-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 31px;
+    font-weight: 700;
+}
+.bottom-right-text .head-para{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}
+.icons img{
+    width: 20px;
+}
+
+.contact-mail{
+    display: flex;
+    position: relative
+}
+.enter-mailid .enter-email{
+    width: 250px;
+    height: 45px;
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 50px;  
+}
+.enter-mailid .btn{
+    position: absolute;
+    width: 150px;
+    height: 45px;
+    border-radius: 50px;
+    left: 40%;
+}
+
+.footer-content {
+    display: flex;
+}
+
+
+.footer-logo a{
+    width: px;
+}
+
+.recent-photos{
+    margin-left: 2rem;
+}
+
+
+
+
+/* Media query */
+
+@media (max-width:991px){
+    .recent-photos{
+        display: none;
+    }
+
+    .bottom-right-text{
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+
+@media (max-width:770px){
+    .footer-content{
+       text-align: center;
+        
+    }
+    .footer-logo{
+        justify-content: center;
+    }
+    .bottom-right-text{
+        margin-top: 2rem;
+        text-align: center;
+    }
+   
+    } 
+    
+@media (max-width:767px){
+   .contact{
+       width: 500px;
+       margin: auto;
+   }
+    .enter-mailid{
+        margin: auto;
+       }
+       .enter-mailid .btn{
+        left: 60%;
+    }
+
+    .mail{
+       margin-top: 2rem;
+    }
+}
+
+
+
+
+
+@media (max-width:581px){
+    .bottom-right-text .head-text{
+        margin-top: 3rem;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .contact{
+        margin-top: 3rem;
+    }
+}
+
+
+@media (max-width:397px){
+    .enter-mailid .btn{
+        width: 105px;
+    }
+}
+
