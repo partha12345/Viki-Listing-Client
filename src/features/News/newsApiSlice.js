@@ -11,15 +11,15 @@ const initialState = newsData.getInitialState()
 export const extendedNewsApiSlice = apiSlice.injectEndpoints({
     endpoints:builder => ({
         getArticle:builder.query({
-            query:() => '/api/news-articles',
-            transformResponse: ResponseData => {                
+            query:() => '/api/news1s',
+            transformResponse: ResponseData => {  
+                console.log(ResponseData)             
                 return newsData.setAll(initialState,ResponseData.data)
             },
             providesTags:(result , error , arg) => [
                 {type:'Article' , id:'LIST'}
             ]
-        })        
-        
+        })      
     })
 })
 
