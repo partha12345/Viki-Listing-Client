@@ -1,0 +1,43 @@
+.About {
+    max-width: 1166px;
+    margin: auto;    
+}
+.About img {
+    width: 100%;
+    height: 523px;
+    background-color: antiquewhite;
+    border-radius: 8px;
+}
+.About p {
+    margin: 25px 0 25px 0;
+}
+.About div {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFDE9;
+    border-radius: 8px;    
+    height: 262px;
+    
+}
+.About div::after {
+    content: ' ';
+    position: absolute;
+    height: 200px;
+    width: 5px;  
+    background: #E4D338;
+    left: 28px;    
+    border-radius: 5px;
+}
+.About div p{
+    max-width: 996px; 
+    font-size: 32px;
+    font-weight: 400;
+    margin-left: 100px;
+}
+@media  (max-width:1200px) {
+    .About {
+        width: 95vw;
+    }    
+}
