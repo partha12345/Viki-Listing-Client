@@ -15,17 +15,17 @@ const Home = () => {
     } = useGetArticleQuery()
 
     let content   
-    if(isLoading) {
-        content = <p>Loading...</p>
-    }
-    if(isError) {
-        if(error.status === 404) {
-            content = <p>Server failed to respond please refresh</p>
-        }        
-    }
-    if(isSuccess) {        
-      content =  <p>{homeNewsData.ids.map(id => (
-          <section className='news-part1'>
+    // // if(isLoading) {
+    // //     content = <p>Loading...</p>
+    // // }
+    // // if(isError) {
+    // //     if(error.status === 404) {
+    // //         content = <p>Server failed to respond please refresh</p>
+    // //     }        
+    // // }
+    // // if(isSuccess) {        
+    //   content =  <p>{homeNewsData.ids.map(id => (
+    content =  <section className='news-part1'>
              <div className='news-part1-sidenews'>
                 <div className='newsContents'>
                    <img className='news-images-small' alt='news-image'></img>
@@ -87,8 +87,8 @@ const Home = () => {
                  <img></img>
              </div>
           </section>            
-        ))}</p>        
-    }
+        // ))}</p>        
+    // }
     
     
 
