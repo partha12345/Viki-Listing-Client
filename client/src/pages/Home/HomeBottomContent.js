@@ -89,17 +89,20 @@ const HomeBottomContent = () => {
               <button className='viewAll'>View All</button>
           </div>
           
+          
           <div className='content'>
               {detail.details.map((contents , subindex) => (               
               <div className='cBox'>
-                <img></img>
-                <div className='t-d'>
-                   <p2>{detail.title}</p2>
-                   <div className='dot'></div>
-                   <span>{detail.date}</span>
-                </div>
-                <p3>{contents.content}</p3>
-                <span>By Vignesh Listing</span>
+                {/* <div className='cBoxInner'> */}
+                   <img></img>
+                   <div className='t-d'>
+                     <p2>{detail.title}</p2>
+                     <div className='dot'></div>
+                     <span>{detail.date}</span>
+                   </div>
+                   <p3>{contents.content.substring(0,73)}...</p3>
+                   <span>By Vignesh Listing</span>
+                {/* </div>                 */}
              </div>                          
               ))}                  
           </div>   

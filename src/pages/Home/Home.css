@@ -6,6 +6,12 @@
     margin: auto;    
 }
 
+
+.news-part1-sidenews{
+    grid-row: 1 / span auto;
+}
+
+
 .news-part1 .news-part1-sidenews {    
     max-width: 276px;
     
@@ -62,4 +68,22 @@
     object-fit: cover;
     border-radius: 10px;
     
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1399px){
+    .part1-middlenews img {
+        display: block;
+    }
+    .part1-lastnews img{
+        display: none;
+    }
 }
