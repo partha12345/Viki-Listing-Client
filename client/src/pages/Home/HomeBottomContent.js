@@ -87,13 +87,11 @@ const HomeBottomContent = () => {
           <div className='title'>
               <h2>{detail.title}</h2>
               <button className='viewAll'>View All</button>
-          </div>
-          
+          </div>        
           
           <div className='content'>
               {detail.details.map((contents , subindex) => (               
-              <div className='cBox'>
-                {/* <div className='cBoxInner'> */}
+              <div className='cBox'>                
                    <img></img>
                    <div className='t-d'>
                      <p2>{detail.title}</p2>
@@ -101,8 +99,7 @@ const HomeBottomContent = () => {
                      <span>{detail.date}</span>
                    </div>
                    <p3>{contents.content.substring(0,73)}...</p3>
-                   <span>By Vignesh Listing</span>
-                {/* </div>                 */}
+                   <span>By Vignesh Listing</span>                
              </div>                          
               ))}                  
           </div>   
