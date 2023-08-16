@@ -1,6 +1,7 @@
 import React from 'react'
 import './Home.css'
 import { useGetArticleQuery } from '../../features/News/newsApiSlice'
+import HomeBottomContent from './HomeBottomContent'
 
 
 
@@ -95,7 +96,8 @@ const Home = () => {
 
   return (
     <div className='Home'>
-       {content}                
+       {content}    
+       <HomeBottomContent/>            
     </div>
   )
 }

@@ -14,7 +14,8 @@ h1 {
 }
 
 h2 {
-
+      font-weight: 700;
+      font-size: 49px;
 }
 
 h3 {
@@ -27,11 +28,37 @@ h4{
     font-size: 16px;    
 }
 
+h5 {
+    font-weight: 700;
+    font-size: 20px;
+}
+
 p2 {
    font-weight: 400;
-   font-size: 10px;
+   font-size: 10px;   
+}
+
+p3 {
+    font-weight: 700;
+    font-size: 20px;
 }
 p5 {
     font-weight: 400;
     font-size: 20px;
+}
+
+
+/* -------Buttons------- */
+.viewAll {
+    width: 136px;
+    height: 49px;
+    border-radius: 218px;
+    border: none;
+    color: white;
+    background-color: black;
+}
+
+span {
+    font-size: 10px;
+    font-weight: 400;
 }
