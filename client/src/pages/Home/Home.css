@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     max-width: 1510px;
-    margin: auto;    
+    margin: auto;        
 }
 
 .news-part1 .news-part1-sidenews {    
@@ -67,7 +67,7 @@
 
 /* -------------------------HomeBottomContent---------------------------------------- */
 .homepart2 {
-    margin-top: 56px;
+    margin-top: 56px;    
 }
 .homepart2 .title {
     max-width: 1164px;
@@ -87,16 +87,23 @@
 .homepart2 .content  .cBox {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: start;
+    justify-content: space-between;    
+    margin: 0 2px 0 2px
 }
 .homepart2 .content img {
     height: 258px;
+    max-width: 375px;
     width: 375px;
     background-color: antiquewhite;
     border-radius: 8px;
     margin-bottom: 30px;
 }
+
+
+
+
+
+
 .homepart2 .content p3 {
     max-width: 374px;    
     margin-bottom: 8px;
@@ -126,14 +133,10 @@
 }
 
 .line {
-    width: 1160px;
+    max-width: 1160px;
     margin: auto;
     background-color: black;
     height: 1px;
     margin-bottom: 56px;
     
 }
-
-/* @media screen and (max-width:1200px) {
-
-} */

@@ -29,71 +29,170 @@ const Home = () => {
         }        
     }
     if(isSuccess) {        
-      content =  <p>{homeNewsData.ids.map(id => (
-          <section className='news-part1'>
-             <div className='news-part1-sidenews'>
-                <div className='newsContents'>
-                   <img className='news-images-small' alt='news-image'></img>
-                   <div className='newsData'>
-                       <h4>{homeNewsData.entities[id].attributes.SidePartTitle1}</h4>
-                       <p2>{homeNewsData.entities[id].attributes.SidePartContent1}</p2>
-                       <span>{homeNewsData.entities[id].attributes.SidePartDate1}</span>
-                   </div>                   
-                </div>
-                <div className='newsContents'>
-                   <img className='news-images-small' alt='news-image'></img>
-                   <div className='newsData'>
-                       <h4>{homeNewsData.entities[id].attributes.SidePartTitle2}</h4>
-                       <p2>{homeNewsData.entities[id].attributes.SidePartContent2}</p2>
-                       <span>{homeNewsData.entities[id].attributes.SidePartDate2}</span>
-                   </div>                   
-                </div>
-                <div className='newsContents'>
-                   <img className='news-images-small' alt='news-image'></img>
-                   <div className='newsData'>
-                       <h4>{homeNewsData.entities[id].attributes.SidePartTitle3}</h4>
-                       <p2>{homeNewsData.entities[id].attributes.SidePartContent3}</p2>
-                       <span>{homeNewsData.entities[id].attributes.SidePartDate3}</span>
-                   </div>                   
-                </div>
-                <div className='newsContents'>
-                   <img className='news-images-small' alt='news-image'></img>
-                   <div className='newsData'>
-                       <h4>{homeNewsData.entities[id].attributes.SidePartTitle4}</h4>
-                       <p2>{homeNewsData.entities[id].attributes.SidePartContent4}</p2>
-                       <span>{homeNewsData.entities[id].attributes.SidePartDate4}</span>
-                   </div>                   
-                </div>
-                <div className='newsContents'>
-                   <img className='news-images-small' alt='news-image'></img>
-                   <div className='newsData'>
-                       <h4>{homeNewsData.entities[id].attributes.SidePartTitle5}</h4>
-                       <p2>{homeNewsData.entities[id].attributes.SidePartContent5}</p2>
-                       <span>{homeNewsData.entities[id].attributes.SidePartDate5}</span>
-                   </div>                   
-                </div>
-             </div>
+      content = 
+      <>
+        <section id="mobile-res">
+      <div class="container-fluid">
+          <div class="row ">
+              <div class="mobile-middle-content col-xs-12">
+                  <div class="mobile-middle-head-one">
+                      <p class="head-text-one">Volkswagen Taigun GT Edge Limited Collection</p>
+                      <p class="head-text-two">Unleash the power of GT and experience the best of German engineering. Be 
+                          among the first in India to own a Taigun GT Edge. Simply fill the form below to book your Volkswagen Taigun GT Edge today.</p>
+                      </div>
+                  </div>
+                  
+              </div>
+              <hr/>
+          </div>
+         
+      </section>
+  
+  
 
-            
-             <div className='part1-middlenews'>
-                 <div>
-                   <h3>{homeNewsData.entities[id].attributes.MiddlePartTitle1}</h3>
-                   <p5>{homeNewsData.entities[id].attributes.MiddlePartContent1}</p5>
-                 </div>     
-                 <div>
-                   <h3>{homeNewsData.entities[id].attributes.MiddlePartTitle2}</h3>
-                   <p5>{homeNewsData.entities[id].attributes.MiddlePartContent2}</p5>
-                 </div>                 
-             </div>
+  <section id="home-pagep-main-section">
+      <div class="container-fluid ">
+          <div class="left-item row justify-content-md-center">
+              <div class="left-content col-xxl-2 col-lg-3 col-md-4 col-sm-2">
+                  <div class="contents">
+  
+                      <div class="content-one">
+                          <div class="left-picture">
+              <img src="Images/1.png" alt="First"/>
+          </div>
+          <div class="picture-info">
+              <div class="info">
+                  <p class="first-text">Coordination between the business</p>
+                  <p class="second-text">It has earned the reputation of being the chosen electrical goods</p>
+                  <p class="third-text">29 Feb, 2024</p>
+              </div>
+          </div>
+      </div>
+     
+      <div class="content-two">
+          <div class="left-picture">
+              <img src="Images/2.png" alt="First"/>
+          </div>
+          <div class="picture-info">
+              <div class="info">
+                  <p class="first-text">Greenhouse gases that affect environment</p>
+                  <p class="second-text">It has earned the reputation of being the chosen electrical goods</p>
+                  <p class="third-text">29 Feb, 2024</p>
+              </div>
+          </div>  
+      </div>
+             
+      <div class="content-three">
+          <div class="left-picture">
+              <img src="Images/3.png" alt="First"/>
+          </div>
+          <div class="picture-info">
+              <div class="info">
+                  <p class="first-text">Some stores charge a small amount.</p>
+                  <p class="second-text">It has earned the reputation of being the chosen electrical goods</p>
+                  <p class="third-text">29 Feb, 2024</p>
+              </div>
+          </div> 
+      </div>
+              
+      <div class="content-four">
+          <div class="left-picture">
+              <img src="Images/4.png" alt="First"/>
+          </div>
+          <div class="picture-info">
+              <div class="info">
+                  <p class="first-text">Friends and Family Shave</p>
+                  <p class="second-text">It has earned the reputation of being the chosen electrical goods</p>
+                  <p class="third-text">29 Feb, 2024</p>
+              </div>
+          </div> 
+      </div>
+              
+  
+      <div class="content-five">
+          <div class="left-picture">
+              <img src="Images/5.png" alt="First"/>
+          </div>
+          <div class="picture-info">
+              <div class="info">
+                  <p class="first-text">Person Shares Satellite Images</p>
+                  <p class="second-text">It has earned the reputation of being the chosen electrical goods</p>
+                  <p class="third-text">29 Feb, 2024</p>
+              </div>
+          </div>
+      </div>
+               
+  </div>
+  </div>
+  
+  
+  
+      
+  
+  
+  
+  <div class="middle-contents col-xxl-5 col-lg-7 col-md-7 col-sm-10">
+      <div class="middle-content">
+          <div class="middle-head-one">
+              <p class="head-text-one">Volkswagen Taigun GT Edge Limited Collection</p>
+              <p class="head-text-two">Unleash the power of GT and experience the best of German engineering. Be 
+                  among the first in India to own a Taigun GT Edge. Simply fill the form below to book your Volkswagen Taigun GT Edge today.</p>
+          </div>
+  
+  
+          <div class="right-picture middle">
+              <img src="Images/long_Rectangle.png" class="img-fluid" alt="ad"/>
+          </div>
+  
+          <div class="middle-head-two">
+              <p class="head-text-one">Man buys fake Puma shoes from local market. Swiggy instamart's reply to his post </p>
+              <p class="head-text-two">Most of us are guilty of buying cheap first copies of high-end brands just to show it off to our friends. 
+                  Well, sometimes that actually helped us grab the spotlight. </p>
+          </div>
+      </div>
+  </div>
+  
+  <div class="right-contents col-xxl-3 col-md-7 col-sm-12">
+      <div class="right-content last">
+          <div class="right-picture">
+              <img src="Images/Rectangle 17.png" alt="Ad"/>
+          </div>
+          <div class="right-picture">
+              <img src="Images/Rectangle 17.png" alt="Ad"/>
+          </div>
+      </div>
+  </div>
+  
+  </div>
+  
+  </div>
+  </section>
+  
+  
 
-            
-             <div className='part1-lastnews'>
-                 <img></img>
-                 <img></img>
-             </div>
-          </section>            
-        ))}</p>        
-    }
+  
+  
+  <section id="mobile-res">
+  
+      <div class="container-fluid">
+          <div class="row ">
+              <div class="mobile-middle-content col-xs-12">
+                  <div class="mobile-middle-head-two">
+                      <p class="head-text-one">Man buys fake Puma shoes from local market. Swiggy instamart's reply to his post </p>
+                      <p class="head-text-two">Most of us are guilty of buying cheap first copies of high-end brands just to show it off to our friends. 
+                          Well, sometimes that actually helped us grab the spotlight. </p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+</>
+
+        
+  
+  
+     
+        
     
     
 
@@ -103,6 +202,7 @@ const Home = () => {
        {content}                
     </div>
   )
+}
 }
 
 export default Home
