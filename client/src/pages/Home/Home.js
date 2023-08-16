@@ -75,11 +75,19 @@ const Home = () => {
                  <div>
                    <h3>Volkswagen Taigun GT Edge Limited Collection</h3>
                    <p5>Unleash the power of GT and experience the best of German engineering. Be among the first in India to own a Taigun GT Edge. Simply fill the form below to book your Volkswagen Taigun GT Edge today.</p5>
-                 </div>     
+                 </div>  
+
+                 <div className='tab-news'>
+                 <img></img>
+                  </div> 
+
                  <div>
                    <h3>Man buys fake Puma shoes from local market. Swiggy instamart's reply to his post</h3>
                    <p5>Most of us are guilty of buying cheap first copies of high-end brands just to show it off to our friends. Well, sometimes that actually helped us grab the spotlight.</p5>
-                 </div>                 
+                 </div> 
+
+                 
+
              </div>
 
             
