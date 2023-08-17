@@ -26,76 +26,102 @@ const Home = () => {
     // // }
     // // if(isSuccess) {        
     //   content =  <p>{homeNewsData.ids.map(id => (
-    content =  <section className='news-part1'>
-             <div className='news-part1-sidenews'>
-                <div className='newsContents'>
-                   <img className='news-images-small' alt='news-image'></img>
-                   <div className='newsData'>
-                       <h4>coordination between the business</h4>
-                       <p2>It has earned the reputation of being the chosen electrical goods</p2>
-                       <span>29 Feb, 2024</span>
-                   </div>                   
-                </div>
-                <div className='newsContents'>
-                   <img className='news-images-small' alt='news-image'></img>
-                   <div className='newsData'>
-                       <h4>greenhouse gases that affect environment</h4>
-                       <p2>It has earned the reputation of being the chosen electrical goods</p2>
-                       <span>29 Feb, 2024</span>
-                   </div>                   
-                </div>
-                <div className='newsContents'>
-                   <img className='news-images-small' alt='news-image'></img>
-                   <div className='newsData'>
-                       <h4>Some stores charge a small amount.</h4>
-                       <p2>It has earned the reputation of being the chosen electrical goods</p2>
-                       <span>29 Feb, 2024</span>
-                   </div>                   
-                </div>
-                <div className='newsContents'>
-                   <img className='news-images-small' alt='news-image'></img>
-                   <div className='newsData'>
-                       <h4>Friends and Family Shave</h4>
-                       <p2>It has earned the reputation of being the chosen electrical goods</p2>
-                       <span>29 Feb, 2024</span>
-                   </div>                   
-                </div>
-                <div className='newsContents'>
-                   <img className='news-images-small' alt='news-image'></img>
-                   <div className='newsData'>
-                       <h4>Person Shares Satellite Images</h4>
-                       <p2>It has earned the reputation of being the chosen electrical goods</p2>
-                       <span>29 Feb, 2024</span>
-                   </div>                   
-                </div>
-             </div>
+    content = 
+    <>
+      <section className='mobile-part'>
+      <div className='mobile-news'>
+                 <h3>Volkswagen Taigun GT Edge Limited Collection</h3>
+                 <p5>Unleash the power of GT and experience the best of German engineering. Be among the first in India to own a Taigun GT Edge. Simply fill the form below to book your Volkswagen Taigun GT Edge today.</p5>
+               </div>  
+</section>
 
+
+<section className='news-part1'>
+  
+  
+  <div className='news-part1-sidenews'>
+
+              <div className='newsContents'>
+                 <img className='news-images-small' alt='news-image'></img>
+                 <div className='newsData'>
+                     <h4>coordination between the business</h4>
+                     <p2>It has earned the reputation of being the chosen electrical goods</p2>
+                     <span>29 Feb, 2024</span>
+                 </div>                   
+              </div>
+              <div className='newsContents'>
+                 <img className='news-images-small' alt='news-image'></img>
+                 <div className='newsData'>
+                     <h4>greenhouse gases that affect environment</h4>
+                     <p2>It has earned the reputation of being the chosen electrical goods</p2>
+                     <span>29 Feb, 2024</span>
+                 </div>                   
+              </div>
+              <div className='newsContents'>
+                 <img className='news-images-small' alt='news-image'></img>
+                 <div className='newsData'>
+                     <h4>Some stores charge a small amount.</h4>
+                     <p2>It has earned the reputation of being the chosen electrical goods</p2>
+                     <span>29 Feb, 2024</span>
+                 </div>                   
+              </div>
+              <div className='newsContents'>
+                 <img className='news-images-small' alt='news-image'></img>
+                 <div className='newsData'>
+                     <h4>Friends and Family Shave</h4>
+                     <p2>It has earned the reputation of being the chosen electrical goods</p2>
+                     <span>29 Feb, 2024</span>
+                 </div>                   
+              </div>
+              <div className='newsContents'>
+                 <img className='news-images-small' alt='news-image'></img>
+                 <div className='newsData'>
+                     <h4>Person Shares Satellite Images</h4>
+                     <p2>It has earned the reputation of being the chosen electrical goods</p2>
+                     <span>29 Feb, 2024</span>
+                 </div>                   
+              </div>
+           </div>
+
+
+
+          <section className='mobile-part'>
             
-             <div className='part1-middlenews'>
-                 <div>
-                   <h3>Volkswagen Taigun GT Edge Limited Collection</h3>
-                   <p5>Unleash the power of GT and experience the best of German engineering. Be among the first in India to own a Taigun GT Edge. Simply fill the form below to book your Volkswagen Taigun GT Edge today.</p5>
-                 </div>  
+          <div className='mobile-news'>
+                 <h3>Man buys fake Puma shoes from local market. Swiggy instamart's reply to his post</h3>
+                 <p5>Most of us are guilty of buying cheap first copies of high-end brands just to show it off to our friends. Well, sometimes that actually helped us grab the spotlight.</p5>
+               </div>
+          </section>
 
-                 <div className='tab-news'>
-                 <img></img>
-                  </div> 
+          
+           <div className='part1-middlenews'>
+               <div>
+                 <h3>Volkswagen Taigun GT Edge Limited Collection</h3>
+                 <p5>Unleash the power of GT and experience the best of German engineering. Be among the first in India to own a Taigun GT Edge. Simply fill the form below to book your Volkswagen Taigun GT Edge today.</p5>
+               </div>  
 
-                 <div>
-                   <h3>Man buys fake Puma shoes from local market. Swiggy instamart's reply to his post</h3>
-                   <p5>Most of us are guilty of buying cheap first copies of high-end brands just to show it off to our friends. Well, sometimes that actually helped us grab the spotlight.</p5>
-                 </div> 
+               <div className='tab-news'>
+               <img></img>
+                </div> 
 
-                 
+               <div>
+                 <h3>Man buys fake Puma shoes from local market. Swiggy instamart's reply to his post</h3>
+                 <p5>Most of us are guilty of buying cheap first copies of high-end brands just to show it off to our friends. Well, sometimes that actually helped us grab the spotlight.</p5>
+               </div>
+           </div>
 
-             </div>
+          
+           <div className='part1-lastnews'>
+               <img></img>
+               <img></img>
+           </div>
+        </section>            
 
-            
-             <div className='part1-lastnews'>
-                 <img></img>
-                 <img></img>
-             </div>
-          </section>            
+    </>
+  
+    
+    
+   
         // ))}</p>        
     // }
     
