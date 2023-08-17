@@ -73,6 +73,9 @@
         display: none;
        
     }
+    .mobile-part .mobile-news{
+        display: none;
+    }
 }
 
 
@@ -132,7 +135,21 @@
 
 }
 
+@media(max-width:700px){
 
+    .news-part1 .newsContents {
+        display: flex;
+    }
+    .mobile-part .mobile-news{
+        display: block;
+    }
+    .part1-middlenews .tab-news{
+        display: none;
+    }
+    .part1-middlenews{
+        display: none;
+    }
+}
 
 
 /* -------------------------HomeBottomContent---------------------------------------- */
@@ -208,10 +225,6 @@
     margin: auto;
     background-color: black;
     height: 1px;
-<<<<<<< HEAD
-    margin-bottom: 56px;
-    
-=======
     margin-bottom: 56px;    
 }
 
@@ -258,5 +271,4 @@
         width: 100%;      
         margin: 0 auto 30px auto;        
     }
->>>>>>> 10479f7a775cfcf0b53062cdf5f12cd29d8e6de8
 }
