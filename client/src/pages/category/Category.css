@@ -240,14 +240,23 @@
     .content2 .profile {
         width: 96vw;        
     }
-}
-
-
-@media screen and (max-width:343px) {
     .category .content1 h1{
         font-size: 16px;
         font-style: normal;
         font-weight: 700;
         line-height: 140%; 
     }    
+    .content3 img {
+        height: 230px;
+    }
 }
+
+
+/* @media screen and (max-width:343px) {
+    .category .content1 h1{
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%; 
+    }    
+} */
