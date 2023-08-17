@@ -3,6 +3,7 @@ import './Header.css'
 import favicon from '../../assets/Images/Group 158 1.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
+import { Link } from 'react-router-dom'
 
 
 
@@ -12,10 +13,9 @@ const Header = () => {
     <header className='Header'>
             <nav className='navbar navbar-expand-lg'>
                 <div className='container-fluid'>
-                    <a className='navbar-brand' href='#'>
+                    <a className='navbar-brand' href='/'>
                         <img src={favicon}></img>
                     </a>
-
                     <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -55,7 +55,7 @@ const Header = () => {
               </div>
 
               <div className='categorey'>
-                <a className='btn btn-dark rounded-5' role='button'>Category</a>
+                  <Link to="/category"><a className='btn btn-dark rounded-5' role='button'>Category</a></Link>
               </div>
 
             </div>

@@ -3,16 +3,15 @@
     justify-content: space-between;
     align-items: center;
     max-width: 1510px;
-    margin: auto;        
+    margin: 5rem auto 5rem auto;     
 }
 
 .news-part1 .news-part1-sidenews {    
     max-width: 276px;
-    
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    height: 640px;
+    
 }
 
 .newsData {
@@ -85,7 +84,11 @@
         display: none;
     }
 }
-
+@media(max-width:1395px){
+    .news-part1-sidenews .newsContents:nth-child(5){
+        display: none   ;
+    }
+}
 
 @media(max-width:1520px){
     .news-part1{

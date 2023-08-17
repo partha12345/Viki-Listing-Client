@@ -57,6 +57,26 @@
     left: 40%;
 }
 
+
+.feedback{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.feedback .head{
+    font-size: 49px;
+    font-family: 700;
+    margin: auto;
+} 
+
+.feedback .feedback-photos{
+    margin: auto;
+}
+
+
+
 .footer-content {
     display: flex;
 }
