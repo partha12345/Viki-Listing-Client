@@ -11,8 +11,8 @@
     color: #232323;
 }
 .nav-link{
-    padding-left: 0 !important;
-    padding-right: 0 !important;
+    /* padding-left: 0 !important;
+    padding-right: 0 !important; */
     position: relative;
     transition: all 0.4s;
 }
@@ -57,13 +57,21 @@ box-shadow: 5px 5px 5px gray;
 border-radius: 20px;
 }
 
-
+.options{
+    display: flex;
+    justify-content: space-between;
+    
+}
 
 .category .btn{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
+    
+   
 }
+
+
 
 
 

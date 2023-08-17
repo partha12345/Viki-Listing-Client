@@ -43,7 +43,20 @@ const Header = () => {
                   </li>
               </ul>
 
-              <div class="d-flex justify-content-center align-items-center gap-3">
+
+
+            <div className='options'>
+              <div className='search-input'>
+                <input className='form-control' type='text' placeholder='Search'></input>
+              </div>
+
+              <div className='categorey'>
+                <a className='btn btn-dark rounded-5' role='button'>Category</a>
+              </div>
+
+            </div>
+
+              {/* <div class="options">
 
                 <div class="search-input">
                     <input class="form-control" type="text" placeholder="Search" aria-label="Search"></input>
@@ -53,7 +66,7 @@ const Header = () => {
                 <div class="category">
                     <a class="btn btn-dark rounded-5" href="#gridcontainer" role="button">Category</a>
                 </div>
-                </div>
+                </div> */}
                 </div>
           </div>
           </div>
