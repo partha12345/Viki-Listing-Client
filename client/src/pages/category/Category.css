@@ -1,0 +1,31 @@
+.category {    
+    max-width: 1464px;
+    margin: auto;    
+}
+
+@media screen and (max-width:1500px)  {
+    .category{
+        width: 90vw;
+        margin: auto;
+    } 
+}
+
+@media screen and (max-width:768px) and (min-width:344px) {
+    .category .content1 h1 {
+        color: #000;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%; /* 35px */
+        font-family: Roboto;
+    }
+}
+
+@media screen and (max-width:343px) {
+    .category .content1 h1{
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%; 
+    }    
+}

@@ -6,6 +6,7 @@ import NewsList from './pages/Articles/NewsList';
 import Layout from './collections/Layout';
 import Home from './pages/Home/Home';
 import About from './pages/About/About';
+import Category from './pages/category/Category';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
        <Route path='/' element={<Layout/>}>
          <Route index element={<Home/>}/>
          <Route path='about' element={<About/>}></Route>
+         <Route path='category' element={<Category/>}></Route>
        </Route>      
     </Routes>
   );
