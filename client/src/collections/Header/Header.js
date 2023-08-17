@@ -1,6 +1,9 @@
 import React from 'react'
 import './Header.css'
 import favicon from '../../assets/Images/Group 158 1.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
+
 
 
 
@@ -48,6 +51,7 @@ const Header = () => {
             <div className='options'>
               <div className='search-input'>
                 <input className='form-control' type='text' placeholder='Search'></input>
+                <FontAwesomeIcon icon={faMagnifyingGlass} style={{color: "#000000",}} className='search-icon'  />
               </div>
 
               <div className='categorey'>

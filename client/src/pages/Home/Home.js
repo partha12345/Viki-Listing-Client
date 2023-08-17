@@ -49,7 +49,7 @@ const Home = () => {
   <div className='news-part1-sidenews'>
 
               <div className='newsContents'>
-                 <img className='news-images-small' src={{favimagesone}} style={{width:50}} alt='news-image'></img>
+                 <img className='news-images-small' src={favimagesone} style={{width:50}} alt='news-image'></img>
                  <div className='newsData'>
                      <h4>coordination between the business</h4>
                      <p2>It has earned the reputation of being the chosen electrical goods</p2>
@@ -57,7 +57,7 @@ const Home = () => {
                  </div>                   
               </div>
               <div className='newsContents'>
-                 <img className='news-images-small'  src={{favimagestwo}} style={{width:50}} alt='news-image'></img>
+                 <img className='news-images-small'  src={favimagestwo} style={{width:50}} alt='news-image'></img>
                  <div className='newsData'>
                      <h4>greenhouse gases that affect environment</h4>
                      <p2>It has earned the reputation of being the chosen electrical goods</p2>
@@ -65,7 +65,7 @@ const Home = () => {
                  </div>                   
               </div>
               <div className='newsContents'>
-                 <img className='news-images-small' src={{favimagesthree}} style={{width:50}} alt='news-image'></img>
+                 <img className='news-images-small' src={favimagesthree} style={{width:50}} alt='news-image'></img>
                  <div className='newsData'>
                      <h4>Some stores charge a small amount.</h4>
                      <p2>It has earned the reputation of being the chosen electrical goods</p2>
@@ -73,7 +73,7 @@ const Home = () => {
                  </div>                   
               </div>
               <div className='newsContents'>
-                 <img className='news-images-small' src={{favimagesfour}} style={{width:50}} alt='news-image'></img>
+                 <img className='news-images-small' src={favimagesfour} style={{width:50}} alt='news-image'></img>
                  <div className='newsData'>
                      <h4>Friends and Family Shave</h4>
                      <p2>It has earned the reputation of being the chosen electrical goods</p2>
@@ -81,7 +81,7 @@ const Home = () => {
                  </div>                   
               </div>
               <div className='newsContents'>
-                 <img className='news-images-small' src={{favimagesfive}} style={{width:50}} alt='news-image'></img>
+                 <img className='news-images-small' src={favimagesfive} style={{width:50}} alt='news-image'></img>
                  <div className='newsData'>
                      <h4>Person Shares Satellite Images</h4>
                      <p2>It has earned the reputation of being the chosen electrical goods</p2>

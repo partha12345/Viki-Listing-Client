@@ -2,7 +2,13 @@ import React from 'react'
 import './Footer.css'
 import favicon from '../../assets/Images/Group 114.png'
 import photo from '../../assets/Images/Rectangle 10.png'
-import{FaPinterest,FaFacbook,FaGithub,FaTwitter,FaYoutube} from 'react-icons/fa'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import{faPinterest } from '@fortawesome/free-brands-svg-icons'
+import{faFacebook } from '@fortawesome/free-brands-svg-icons'
+import{faGithub } from '@fortawesome/free-brands-svg-icons'
+import{faTwitter } from '@fortawesome/free-brands-svg-icons'
+import{faYoutube } from '@fortawesome/free-brands-svg-icons'
+
 
 const Footer = () => {
   return (
@@ -18,11 +24,11 @@ const Footer = () => {
                         Find out how to set up a successful blog or how to make yours even better !
                         </p>
                         <div class="footer-logo d-flex justify-content-space-between align-items-center">
-                        <a href="#" target="_blank" class="mx-2 f-20"><i class="fa-brands fa-pinterest fa-2x" style={{color: "#000000;"}}></i></a>
-                        <a href="#" target="_blank" class="mx-2 f-20"><i class="fa-brands fa-facebook fa-2x" style={{color: "#000000;"}}></i></a>
-                        <a href="#" target="_blank" class="mx-2 f-20"> <i class="fa-brands fa-github  fa-2x" style={{color: "#000000;"}}></i></a>
-                        <a href="#" target="_blank" class="mx-2 f-20"><i class="fa-brands fa-twitter  fa-2x" style={{color: "#000000;"}}></i></a>
-                        <a href="#" target="_blank" class="mx-2 f-20"><i class="fa-brands fa-youtube  fa-2x" style={{color: "#000000;"}}></i></a>
+                        <a href="#" target="_blank" class="mx-2 f-20"><FontAwesomeIcon icon={faPinterest} style={{color: "#000000",}} /></a>
+                        <a href="#" target="_blank" class="mx-2 f-20"><FontAwesomeIcon icon={faFacebook} style={{color: "#000000",}} /></a>
+                        <a href="#" target="_blank" class="mx-2 f-20"><FontAwesomeIcon icon={faGithub} style={{color: "#000000",}} /></a>
+                        <a href="#" target="_blank" class="mx-2 f-20"><FontAwesomeIcon icon={faTwitter} style={{color: "#000000",}} /></a>
+                        <a href="#" target="_blank" class="mx-2 f-20"><FontAwesomeIcon icon={faYoutube} style={{color: "#000000",}} /></a>
                     </div>
                     </div>
                 </div>
