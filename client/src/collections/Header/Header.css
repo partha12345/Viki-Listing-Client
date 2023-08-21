@@ -4,7 +4,7 @@
     position: relative;
     /* box-shadow: 5px 5px 5px gray; */
   }
-  .nav-item  a{
+  .mx-2{
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 20px;
@@ -35,16 +35,27 @@ opacity: 0;
 }
 
 
-.search-input{
+.form-control{
     width: 100px; 
+    height: 35px;
     position: relative;  
+    border-radius: 25px;
 }
-
-
-.search-icon{
+/* .box-seach-icon{
+    width: 52px;
+    height: 36px;
+    background-color: #ffffff;
     position: absolute;
-    top: 11px;
-    right: 70px;
+    left: 1215px;
+    border-radius: 25px;
+    box-shadow: 0 5px 5px gray;
+} */
+
+
+.d-flex .search-icon{
+    position: absolute;
+    top: 24px;
+    right: 184px;
 }
 
 .search-input input[type="text"]::placeholder{
@@ -88,4 +99,24 @@ border-radius: 20px;
 input[type="text"]::placeholder{
     text-align: left;
     padding-left: 1rem;
+}
+
+
+/* Media qurey */
+
+
+@media (max-width:991px){
+    .d-flex .search-icon{
+        position: absolute;
+        top: 336px;
+        right: 358px;
+    }
+    
+}
+@media (max-width:400px){
+    .d-flex .search-icon{
+        position: absolute;
+        top: 336px;
+        right: 358px;
+    }
 }
