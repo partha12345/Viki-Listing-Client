@@ -7,6 +7,10 @@ import favimagestwo from  '../../assets/Images/2.png'
 import favimagesthree from  '../../assets/Images/3.png'
 import favimagesfour from  '../../assets/Images/4.png'
 import favimagesfive from  '../../assets/Images/5.png'
+import addone from '../../assets/Images/addone.jpg'
+import addtwo from '../../assets/Images/addtwo.jpeg'
+import addthree from '../../assets/Images/addthree.jpeg'
+import headnews from '../../assets/Images/headnews.jpg'
 
 
 
@@ -97,24 +101,24 @@ const Home = () => {
           
            <div className='part1-middlenews'>
                <div>
-                 <h3>Volkswagen Taigun GT Edge Limited Collection</h3>
+                 
+                 <img src={headnews}></img>
+                 <h3>Man buys fake Puma shoes from local market. Swiggy instamart's reply to his post</h3>
                  <p5>Unleash the power of GT and experience the best of German engineering. Be among the first in India to own a Taigun GT Edge. Simply fill the form below to book your Volkswagen Taigun GT Edge today.</p5>
+                 <span>29 Feb, 2024</span>
                </div>  
 
                <div className='tab-news'>
-               <img></img>
+               <img src={addone}></img>
                 </div> 
 
-               <div>
-                 <h3>Man buys fake Puma shoes from local market. Swiggy instamart's reply to his post</h3>
-                 <p5>Most of us are guilty of buying cheap first copies of high-end brands just to show it off to our friends. Well, sometimes that actually helped us grab the spotlight.</p5>
-               </div>
+              
            </div>
 
           
            <div className='part1-lastnews'>
-               <img></img>
-               <img></img>
+               <img src={addone}></img>
+               <img src={addtwo}></img>
            </div>
         </section>  
         <section className='mobile-part'>
