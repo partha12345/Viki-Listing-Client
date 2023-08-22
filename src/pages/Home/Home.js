@@ -25,7 +25,7 @@ const Home = () => {
     }
     if(isError) {
         if(error.status === 404) {
-            content = <p>Server failed to respond please refresh</p>
+            content = <p>Server failed to respond please reload</p>
         }        
     }
     if(isSuccess) {        
