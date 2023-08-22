@@ -21,7 +21,7 @@ const liveUpdate = () => {
 
 <div className='liveupdates'>
 
-  
+
   <div className='updates'>
 
   <div className='nift-update'>
@@ -53,7 +53,7 @@ const liveUpdate = () => {
     <li className='list-items'>0.53(0.405)</li>
   </ul>
 </div>
-
+</div>
 
 <div className='weather-cricket-update'>
   <div className='weather-update'>
@@ -84,7 +84,6 @@ const liveUpdate = () => {
 
 
 </div>
-  </div>
 
 
 
