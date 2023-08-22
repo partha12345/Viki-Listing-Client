@@ -1,6 +1,7 @@
 import React from 'react'
 import './Header.css'
 import favicon from '../../assets/Images/Group 158 1.png'
+import { Link } from 'react-bootstrap/lib/Navbar'
 
 
 
@@ -51,7 +52,8 @@ const Header = () => {
                 </div>
                
                 <div class="category">
-                    <a class="btn btn-dark rounded-5" href="#gridcontainer" role="button">Category</a>
+                    {/* <a class="btn btn-dark rounded-5" href="#gridcontainer" role="button">Category</a> */}
+                    <Link to = '/category'>Category</Link>
                 </div>
                 </div>
                 </div>
