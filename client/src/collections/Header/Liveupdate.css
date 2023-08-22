@@ -1,53 +1,161 @@
-.updates{
+.daily-updates{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-    background-color: rgb(254, 118, 118);
 }
-
-
-
-
-/* 
-.liveupdates{
-    
-    display: flex;
-   
-} */
-
-
-.nift-update ul{
-    display: flex;
-}
-.sensex-update ul{
-    display: flex;
-}
-.usdinr-update ul{
+.Economic-updates{
     display: flex;
 }
 
-.nift-update ul li{
-    list-style: none;
-    margin: 0 0.3rem;
-}
-.sensex-update ul li{
-    list-style: none;
-    margin: 0 0.3rem;
-}
-.usdinr-update ul li{
-    list-style: none;
-    margin: 0 0.3rem;
-    
-}
 
+.Nft-update ul{
+display: flex;
+}
+.Nft-update ul li{
+    list-style-type: none;
+    margin: 0 5px;
+}
+.Sensex-update ul{
+    display: flex;
+}
+.Sensex-update ul li{
+    list-style-type: none;
+    margin: 0 5px;
+}
+.Usd-update ul{
+    display: flex;
+}
+.Usd-update ul li{
+    list-style-type: none;
+    margin: 0 5px;
+}
 .weather-cricket-update{
     display: flex;
     justify-content: space-between;
     align-items: center;
     float: left;
-   
+    
+}
+.daily-updates{
+    /* margin-left: 5rem; */
+    width: 100%;
+}
+.weather-update{
+    display: flex;
+
+}
+
+
+
+
+
+.update{
+    display: flex;
+    width: 100%;
+}
+.team-score h4{ 
+    font-family: 'Roboto', sans-serif;
+    margin: 0 0.5rem;
+    font-weight: 700;
+    font-size: 13px;
+}
+.team-score p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 0 0.5rem;
+    font-size: 10px;
 }
 .cricket-update{
-    display: flex;
+    
+    width: 100%;
+}
+.team-flag{
+    margin: 0 0.1rem;
+}
+.climate-text{
+   line-height: 0;
+}
+
+.degree{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #E13600;
+}
+.climate-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    color: #E13600;
+}
+.Vs p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.nft , .sen{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+}
+.points{
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 21px;
+}
+.points-clr{
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    color: #D63333;  
+    line-height: 21px;
+}
+.usd{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.Usd-update .points-clr {
+    color:#008215;
+    line-height: 21px;
+    
+}
+.Nft-update  img{
+    width: 13px;
+    margin-top: -6px;
+}
+.Sensex-update img{
+    width: 13px;
+    margin-top: -6px;
+}
+.Usd-update img{
+    width: 13px;
+    margin-top: -6px;
+}
+.cloud-image img{
+    width: 50px;
+    margin-right: 0.8rem;
+}
+.team-flag img{
+    width: 35px;
+}
+
+
+
+
+
+
+
+
+
+/* Media qurey */
+
+
+@media(max-width:991px){
+    .navbarone{
+        display: none;
+    }
 }

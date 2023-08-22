@@ -19,76 +19,90 @@ const liveUpdate = () => {
 <nav class="navbarone ">
 
 
-<div className='liveupdates'>
+<div class="daily-updates ">
 
+<div class="Economic-updates">
 
-  <div className='updates'>
+    <div class="first-update">
+        <div class="Nft-update">
+            <ul class="testing">
+                <li class="nav-item">
+                    <img src={arrowicon}></img>
+                </li>
+                <li class="nav-item"><p class="nft">NIFTY</p>   
+                </li>
+                <li class="nav-item">
+                   <p class="points">19636.45</p> 
+                </li>
+                <li class="nav-item">
+                   <p class="points-clr">-23.45 (-0.12%)</p> 
+                </li>
+            </ul>
+        </div>
+    </div>
+    
 
-  <div className='nift-update'>
-  <ul className='list'>
-    <li className='list-items'><img src={arrowicon}></img></li>
-    <li className='list-items'>NIFTY</li>
-    <li className='list-items'>19636.21</li>
-    <li className='list-items'>-23.45(-0.12%)</li>
-  </ul>
+    <div class="Sensex-update">
+        <ul class="testing">
+            <li class="nav-item">
+                <img src={arrowicon}></img>
+            </li>
+            <li class="nav-item"><p class="sen">SENSEX</p></li>
+            <li class="nav-item"><p class="points"> 66087.67</p></li>
+            <li class="nav-item"><p class="points-clr">-179.12 (-0.27%)</p> </li>
+        </ul>
+    </div>
+    <div class="Usd-update">
+        <ul class="testing">
+            <li class="nav-item">
+                <img src={arrowup}></img>
+            </li>
+            <li class="nav-item"><p class="usd">USDINR</p></li>
+            <li class="nav-item"><p class="points"> 82.26</p> </li>
+            <li class="nav-item"><p class="points-clr">0.53 (0.40%)</p> </li>
+        </ul>
+    </div>
 </div>
 
+<div class="weather-cricket-update">
+    <div class="update">
+        <div class="weather-update">
+            <div class="cloud-image">
+                <img src={cloud}></img>
+            </div>
+            <div class="weather-text">
+                <p class="degree">30 C</p>
+                <p class="climate-text">Most Sunny</p>
+            </div>
+        </div>
+    </div>
+      
 
 
-<div className='sensex-update'>
-  <ul className='list'>
-    <li className='list-items'><img src={arrowicon}></img></li>
-    <li className='list-items'>SENSEX</li>
-    <li className='list-items'>66087.67</li>
-    <li className='list-items'>-171.12(-0.27%)</li>
-  </ul>
-</div>
+        <div class="cricket-update">
+            <div class="update">
+                <div class="team-flag">
+                    <img src={flagone}></img>
+                </div>
+                <div class="team-score">
+                    <h4>IND</h4>
+                    <p>114</p>
+                </div>
+                <div class="Vs">
+                    <p>VS</p>
+                </div>
+                <div class="team-score">
+                    <h4>WI</h4>
+                    <p>118/5</p>
+                </div>
+                <div class="team-flag">
+                    <img src={flagtwo}></img>
+                </div>  
+            </div>
+        </div>
+    </div>
+</div>              
 
-
-<div className='usdinr-update'>
-  <ul className='list'>
-    <li className='list-items'><img src={arrowup}></img></li>
-    <li className='list-items'>USDINR</li>
-    <li className='list-items'>82.26</li>
-    <li className='list-items'>0.53(0.405)</li>
-  </ul>
-</div>
-</div>
-
-<div className='weather-cricket-update'>
-  <div className='weather-update'>
-    <img src={cloud}></img>
-  </div>
-<div className='report'>
-  <p>30C</p>
-  <p>Most Sunny</p>
-</div>
-
-
-<div className='cricket-update'>
-  <div className='flag'>
-  <img src={flagone}></img>
-  </div>
-  <span>Ind</span>
-  <span>114</span>
-  <span>Vs</span>
-  <span>Wi</span>
-
-  <div className='flag'>
-    <img src={flagtwo}></img>
-  </div>
-
-</div>
-
-
-
-
-</div>
-
-
-
-
-</div>
 
 
 
