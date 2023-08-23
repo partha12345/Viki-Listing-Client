@@ -10,11 +10,17 @@ import { BrowserRouter , Routes , Route } from 'react-router-dom'
 import { Provider } from 'react-redux';
 import { store } from './app/store';
 import { extendedNewsApiSlice } from './features/News/newsApiSlice';
+import { fetchNewsData } from './pages/NewsFeeds/newsSlice';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 store.dispatch(extendedNewsApiSlice.endpoints.getArticle.initiate())
+
+
+store.dispatch(fetchNewsData())
+
+
 
 root.render(
   <React.StrictMode>

@@ -8,6 +8,10 @@ import Home from './pages/Home/Home';
 import About from './pages/About/About';
 import Category from './pages/category/Category';
 import Element from './pages/Element/Element';
+import NewsFeed from './pages/NewsFeeds/NewsFeed';
+
+
+
 
 
 function App() {
@@ -18,6 +22,7 @@ function App() {
          <Route path='about' element={<About/>}></Route>
          <Route path='category' element={<Category/>}></Route>
          <Route path='element' element={<Element/>}></Route>
+         <Route path='newsupdate' element={<NewsFeed/>}></Route>
        </Route>      
     </Routes>
   );
