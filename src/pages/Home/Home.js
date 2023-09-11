@@ -20,16 +20,16 @@ const Home = () => {
     
 
     let content   
-    if(isLoading) {
-        content = <p>Loading...</p>
-    }
-    if(isError) {
-        if(error.status === 404) {
-            content = <p>Server failed to respond please reload</p>
-        }        
-    }
-    if(isSuccess) {        
-      content = 
+    // if(isLoading) {
+    //     content = <p>Loading...</p>
+    // }
+    // if(isError) {
+    //     if(error.status === 404) {
+    //         content = <p>Server failed to respond please reload</p>
+    //     }        
+    // }
+    // if(isSuccess) {        
+    content = 
       <>
         <section id="mobile-res">
       <div class="container-fluid">
@@ -203,6 +203,6 @@ const Home = () => {
     </div>
   )
 }
-}
+
 
 export default Home
